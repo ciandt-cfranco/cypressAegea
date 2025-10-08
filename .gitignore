@@ -1,0 +1,51 @@
+# ------------------------------------
+# 1. Dependências e Arquivos de Build
+# ------------------------------------
+# Node.js modules
+/node_modules
+
+# Arquivos de log e cache do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-cache
+
+# ------------------------------------
+# 2. Arquivos Gerados pelo Cypress
+# ------------------------------------
+# Vídeos gerados durante a execução dos testes
+/cypress/videos
+
+# Screenshots capturados (ex: em falhas de teste)
+/cypress/screenshots
+
+# Reports de testes (se você usa reporters como Mochawesome)
+/cypress/reports
+
+# Diretório de cache do Cypress
+.cypress-cache
+
+# ------------------------------------
+# 3. Informações de Configuração Sensíveis
+# ------------------------------------
+# Arquivo .env (se você usa para variáveis de ambiente)
+.env
+.env.*
+
+# Arquivo cypress.env.json (se usado para credenciais sensíveis)
+cypress.env.json
+
+# Arquivos de configurações locais de IDEs (como VS Code)
+.vscode/
+
+# ------------------------------------
+# 4. Outros Arquivos Comuns
+# ------------------------------------
+# Arquivos gerados por sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Diretórios de build ou distribuição
+/dist
+/build

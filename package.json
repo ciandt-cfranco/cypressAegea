@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^15.2.0",
+    "dotenv": "^17.2.3"
+  },
+  "dependencies": {
+    "cypress-mysql": "^1.0.4",
+    "oracledb": "^6.9.0"
+  },
+  "scripts": {
+    "exec": "npx cypress run --spec cypress/e2e/dbtest/*.cy.js",
+    "open": "npx cypress open"
+  }
+}
