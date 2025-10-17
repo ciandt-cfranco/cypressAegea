@@ -8,7 +8,7 @@
     "oracledb": "^6.9.0"
   },
   "scripts": {
-    "exec": "npx cypress run --spec cypress/e2e/dbtest/*.cy.js",
-    "open": "npx cypress open"
+    "exec": "sudo npx cypress run --spec cypress/e2e/dbtest/*.cy.js",
+    "open": "sudo npx cypress open"
   }
 }
